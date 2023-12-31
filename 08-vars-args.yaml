@@ -1,6 +1,6 @@
-- name: vars from inv
+- name: vars from args
   hosts: localhost
   tasks:
-   - name: printing from inv file
+   - name: printing from args
      ansible.builtin.debug:
-      msg: "Hi {{PERSON}} Good {{wishes}}"
+      msg: "Hi {{PERSON}} Good {{WISHES}}"
