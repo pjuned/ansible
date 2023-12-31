@@ -11,7 +11,7 @@
     
 
 - name: play-2
-  hosts localhost
+  hosts: localhost
   tasks:
     - name: play-2 & task-1
       ansible.builtin.debug:
