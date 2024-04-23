@@ -3,4 +3,4 @@
   tasks: 
     - name: check varibales
       ansible.builtin.debug:
-        msg: "Hello I am learnign {{course}} by {{trainer}}"
+        msg: "Hello I am learnign {{course1}} by {{trainer1}}"
