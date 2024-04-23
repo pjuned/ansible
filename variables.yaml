@@ -5,5 +5,8 @@
     course: "devops"
   tasks: 
     - name: check varibales
+      vars:
+        course: "AWS"
+        trainer: "jawad"
       ansible.builtin.debug:
         msg: "Hello I am learnign {{course}} by {{trainer}}"
