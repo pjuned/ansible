@@ -1,6 +1,13 @@
 [web]
 34.203.202.136
 
+[localhost]
+localhost
+
+[localhost:vars]
+course: "Devops"
+trainer: "Siva"
+
 [cart]
 192.187.54.23
 192.187.53.22
