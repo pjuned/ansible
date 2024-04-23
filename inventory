@@ -1,9 +1,6 @@
+[web]
 192.145.34.55
 192.34.44.45
-
-[web]
-192.168.1 15
-192.168.2 14
 
 [cart]
 192.187.54.23
@@ -13,7 +10,7 @@
 192.187.34.23
 192.187.23.22
 
-[roboshop children]
+[roboshop_children:children]
 web
 cart
 catalogue
