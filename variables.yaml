@@ -1,12 +1,8 @@
 - name: variables demo
   hosts: localhost
-  vars:
-    trainer: "sivkumar"
-    course: "devops"
+  vars_files:
+    - vars.yaml
   tasks: 
     - name: check varibales
-      vars:
-        course: "AWS"
-        trainer: "jawad"
       ansible.builtin.debug:
         msg: "Hello I am learnign {{course}} by {{trainer}}"
