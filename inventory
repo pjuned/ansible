@@ -5,8 +5,8 @@
 localhost
 
 [localhost:vars]
-course: "Devops"
-trainer: "Siva"
+course="Devops"
+trainer="Siva"
 
 [cart]
 192.187.54.23
